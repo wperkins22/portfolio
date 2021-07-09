@@ -120,9 +120,11 @@ footer p {
 
   header {
     display: grid;
+    height: 150px;
     grid-template: 1fr 1fr / repeat(4, 1fr);
     justify-content: center;
     justify-items: center;
+    align-items: center;
   }
 
   header h1 {
@@ -134,7 +136,7 @@ footer p {
   }
 
   nav li {
-    width: 112px;
+    width: 100px;
   }
 }
 
