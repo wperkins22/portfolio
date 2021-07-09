@@ -96,14 +96,21 @@ li a {
   height: 50px;
 }
 
+/* Contact page */
+.contact-icon img {
+  height: 50px;
+  padding-right: 10px;
+}
+
 /* Footer */
 footer {
-    margin-top: 1.25rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 footer p {
-    position: relative;
-    width: 300px;
-    margin: 0 auto;
-    font-size: 12px;
+  font-size: 12px;
 }
